@@ -4,11 +4,14 @@
   "description": "A site for booking cooking classes.",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node main.js"
   },
   "author": "Aaron Snowberger",
   "license": "ISC",
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
     "http-status-codes": "^2.2.0"
   },
   "devDependencies": {
